@@ -1,0 +1,215 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description"
+        content="Secrets de cuisine, Découvrez des recettes de cuisine de dîner américain et trouvez des accessoires de cuisine vintage et rétro pour recréer l'atmosphère authentique des années passées. Recettes de hamburger américain, hot-dog, milkshake ">
+    <meta name="keywords"
+        content="recettes, Recettes de cuisine américaine, Dîner américain, Cuisine vintage, Cuisine rétro, Accessoires de cuisine vintage, Ustensiles de cuisine rétro, Recettes de hamburgers américains, Recettes de hot-dogs américains, Recettes de desserts américains, Cuisine traditionnelle américaine, Recettes de poulet frit, Recettes de barbecue américain, Recettes de macaroni au fromage, Recettes de pancakes américains, Recettes de biscuits et de tartes, Recettes de plats tex-mex, Recettes de sandwichs américains, Recettes de milkshakes, Recettes de desserts à base de chocolat, Recettes de cocktails classiques américains, Cuisine du Sud des États-Unis, Recettes de salades américaines, Recettes de cornichons et de condiments maison, Recettes de cuisine de la côte est américaine, Recettes de cuisine de la côte ouest américaine, Recettes de plats de Thanksgiving, Recettes de plats de Noël américains, Accessoires de cuisine rétro, Vaisselle vintage américaine, cuisine américain, cuisine américaine recette, cuisine culinaire, cuisine et recettes, cuisine recette, des recettes de cuisine, dîner américain, dîner recette, la cuisine américaine, les recettes de cuisine, recette américaine, recette cuisine, recette de cuisine, recette dîner, recettes culinaire, recettes favorites, une recette de cuisine">
+    <link rel="shortcut icon" type="image/png" href="img/Logo fond rose fond vide sans texte 60px.webp">
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/panier.css">
+    <link rel="preload" href="font/LuckiestGuy-Regular.ttf" as="font" type="font/tff" crossorigin="anonymous">
+    <link rel="preload" href="font/RoyalWedding-Regular.ttf" as="font" type="font/tff" crossorigin="anonymous">
+    <link rel="preload" href="font/RetroJump.ttf" as="font" type="font/tff" crossorigin="anonymous">
+    <!-- Google tag (gtag.js) -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-RMRYTDGQVV"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag() { dataLayer.push(arguments); }
+        gtag('js', new Date());
+
+        gtag('config', 'G-RMRYTDGQVV');
+    </script>
+
+    <title>Secrets de cuisine, Recettes de cuisine de dîner américain et accessoires de cuisine vintage</title>
+</head>
+
+<body>
+    <div class="pattern">
+        <header class="main-nav">
+            <a href="https://yhumisunstra.com">
+                <img class="logo" src="img/logotrianglenav.webp" alt="logo Secrets de cuisine">
+            </a>
+            <nav class="nav-end">
+                <ul class="nav navbar">
+                    <li class="rond rotating-element"><a class="" href="https://yhumisunstra.com">Accueil</a></li>
+                    <li class="rond"><a class="nav-link active bouncing-element" href="https://yhumisunstra.com/recettes.html">Recettes</a></li>
+                    <li class="rond rotating-element"><a class="" href="https://yhumisunstra.com/boutique.html">Boutique</a></li>
+                    <li class="rond rotating-element"><a class="" href="https://yhumisunstra.com/blog.html">Blog</a></li>
+                    <li class="rond rotating-element"><a class="" href="https://yhumisunstra.com/contact.php">Contact</a></li>
+                </ul>
+            </nav>
+        </header>
+        <section class="search">
+            <div class="rectangle-search">
+                <script>
+                    function searchRecipes() {
+                        // Récupérer la valeur de recherche
+                        var searchValue = document.getElementById("searchInput").value;
+
+                        // Effectuer une action avec la valeur de recherche
+                        // Par exemple, rediriger vers une page de résultats de recherche
+                        window.location.href = "resultats.html?search=" + encodeURIComponent(searchValue);
+                    }
+                </script>
+                <input class="line-search" type="text" id="searchInput"
+                placeholder="Envie d'une recette...?">
+                <button class="button-loupe rotating-element" onclick="searchRecipes()"><img src="img/loupe.webp"
+                        alt="image d'une loupe"></button>
+                <a class="login-container" href="https://yhumisunstra.com/connexion.html">
+                    <svg class="login-icon" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24"
+                        stroke-width="1.5" stroke="currentColor" class=" w-6 h-6">
+                        <path stroke-linecap="round" stroke-linejoin="round"
+                            d="M17.982 18.725A7.488 7.488 0 0012 15.75a7.488 7.488 0 00-5.982 2.975m11.963 0a9 9 0 10-11.963 0m11.963 0A8.966 8.966 0 0112 21a8.966 8.966 0 01-5.982-2.275M15 9.75a3 3 0 11-6 0 3 3 0 016 0z" />
+                    </svg>
+                    <span class="login-text change-color">Mon compte</span>
+                </a>
+                <a class="login-container dropdown" href="https://yhumisunstra.com/panier.html">
+                    <svg id="cart-icon" class="login-icon image" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24"
+                        stroke-width="1.5" stroke="currentColor" class="w-6 h-6">
+                        <path stroke-linecap="round" stroke-linejoin="round"
+                            d="M2.25 3h1.386c.51 0 .955.343 1.087.835l.383 1.437M7.5 14.25a3 3 0 00-3 3h15.75m-12.75-3h11.218c1.121-2.3 2.1-4.684 2.924-7.138a60.114 60.114 0 00-16.536-1.84M7.5 14.25L5.106 5.272M6 20.25a.75.75 0 11-1.5 0 .75.75 0 011.5 0zm12.75 0a.75.75 0 11-1.5 0 .75.75 0 011.5 0z" />
+
+                    </svg>
+                    <div class="login-text change-color dropdown-content" id="dropdown-menu cart-count"><span
+                            id="cart-count">0</span> articles
+                        <div class="see-panier">
+                            Voir mon panier
+                        </div>
+                       
+                    </div>
+                </a>
+            </div>
+        </section>
+        <section class="search">
+            <div class="rectangle-menu">
+                <h1>Le Burger Frite Classique</h1>
+
+                <section class="rectangle-article-blog">
+
+                    <div class="blog-vignette-article">
+                        <img class="img-blog-vignette" src="img/burger2.webp" alt="Burger frites appétissant">
+                        <article class="article-blog">
+                            <h2 class="text-shadow-bleu">Le Classique Hamburger avec ses Frites Croustillantes : Un
+                                Repas Gourmand à Déguster
+                            </h2>
+                            <p class="blog-text">
+                                Le hamburger accompagné de frites croustillantes est un plat emblématique qui fait
+                                saliver les amateurs de cuisine réconfortante.<br> Avec son savoureux steak juteux, ses
+                                ingrédients garnis et ses frites dorées à souhait, ce repas satisfait les appétits les
+                                plus voraces. <br>Dans cette recette, nous vous dévoilons comment préparer un hamburger et
+                                ses frites maison qui vous transportera directement dans un délicieux fast-food.<br>
+                                Préparez-vous à régaler vos papilles avec ce repas complet et délicieux !
+                            </p>
+                            <p class="blog-text">
+                                <span class="text-shadow-bleu">Ingrédients :</span><br>
+                                <br>
+                                <span class="text-shadow-bleu">Pour le hamburger :</span><br>
+                                <br>
+                                500 g de viande hachée (bœuf, agneau, porc ou mélange)<br>
+                                4 pains à hamburger<br>
+                                4 tranches de fromage (cheddar, emmental, etc.)<br>
+                                Feuilles de laitue<br>
+                                Tranches de tomate<br>
+                                Tranches d'oignon rouge<br>
+                                Cornichons en rondelles<br>
+                                Sauce au choix (ketchup, moutarde, mayonnaise, sauce barbecue, etc.)<br>
+                                Sel et poivre selon votre goût<br>
+                                <br>
+                               <span class="text-shadow-bleu">Pour les frites :</span><br>
+                                <br>
+                                4 grosses pommes de terre<br>
+                                Huile végétale pour la friture<br>
+                                Sel selon votre goût<br>
+                            </p>
+                            <p class="blog-text">
+                                <span class="text-shadow-bleu">Instructions :</span><br>
+                                <br>
+                                <span class="text-shadow-bleu">Préparation des frites :</span><br>
+                                <br>
+                                Épluchez les pommes de terre et coupez-les en bâtonnets de taille régulière.<br>
+                                Rincez les bâtonnets de pommes de terre à l'eau froide pour enlever l'excès d'amidon.<br>
+                                Faites chauffer l'huile végétale dans une grande casserole ou une friteuse à 180°C.<br>
+                                Plongez délicatement les bâtonnets de pommes de terre dans l'huile chaude et faites-les
+                                frire pendant environ 5 à 7 minutes jusqu'à ce qu'ils soient dorés et croustillants.<br>
+                                Retirez les frites de l'huile à l'aide d'une écumoire et égouttez-les sur du papier
+                                absorbant pour enlever l'excès d'huile.<br>
+                                Saupoudrez les frites de sel selon votre goût.
+                            </p>
+                            <p class="blog-text">
+                                <span class="text-shadow-bleu">Préparation du hamburger :</span><br>
+                                <br>
+                                Divisez la viande hachée en 4 portions égales et façonnez-les en steaks de la taille des
+                                pains à hamburger.<br>
+                                Assaisonnez les steaks de viande hachée avec du sel et du poivre des deux côtés.<br>
+                                Faites chauffer une poêle ou un gril à feu moyen-élevé et faites cuire les steaks de
+                                viande hachée pendant environ 4 à 5 minutes de chaque côté, jusqu'à ce qu'ils soient
+                                cuits selon votre préférence.<br>
+                                Pendant la cuisson de la viande, faites griller légèrement les pains à hamburger dans un
+                                grille-pain ou sur une poêle.<br>
+                                Ajoutez une tranche de fromage sur chaque steak de viande hachée encore chaud pour
+                                qu'elle fonde légèrement.<br>
+                                Sur la partie inférieure du pain à hamburger, étalez la sauce de votre choix.<br>
+                                Disposez une feuille de laitue, une tranche de tomate, des rondelles d'oignon rouge et
+                                des cornichons sur la sauce.<br>
+                                Placez le steak de viande hachée avec le fromage fondu sur les ingrédients garnis.<br>
+                                Refermez le hamburger avec la partie supérieure du pain.
+                            </p>
+                            <p class="blog-text">
+                                <span class="text-shadow-bleu">Dégustation :</span><br>
+                                <br>
+                                Servez le hamburger avec les frites croustillantes chaudes.<br>
+                                Accompagnez le tout de sauces supplémentaires, comme du ketchup ou de la mayonnaise, si
+                                désiré.<br>
+                                Prenez une bouchée du hamburger en combinant les saveurs riches de la viande, des
+                                légumes et des condiments.<br>
+                                Trempez les frites croustillantes dans les sauces et savourez la combinaison parfaite de
+                                textures et de goûts.
+                            </p>
+                            <p class="blog-text">
+                                Le hamburger avec ses frites croustillantes est un véritable incontournable pour les
+                                amateurs de cuisine délicieuse et réconfortante.<br> En suivant cette recette simple, vous
+                                pouvez créer votre propre expérience gastronomique digne d'un fast-food à la maison.<br>
+                                Alors, réunissez vos ingrédients, préparez vos frites dorées et assemblez votre
+                                hamburger garni pour profiter d'un repas complet et savoureux.<br> Régalez-vous avec cette
+                                combinaison classique de saveurs et de textures qui ne manquera pas de satisfaire vos
+                                papilles gustatives !
+                            </p>
+
+                        </article>
+                    </div>
+
+                    <a class="button-rosefonce bouncing-element2" href="https://yhumisunstra.com/recettes.html">
+                        Voir plus de recettes
+                    </a>
+
+                </section>
+            </div>
+        </section>
+        <div>
+            <button id="scrollToTopButton">
+            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6">
+                <path stroke-linecap="round" stroke-linejoin="round" d="M15 11.25l-3-3m0 0l-3 3m3-3v7.5M21 12a9 9 0 11-18 0 9 9 0 0118 0z" />
+              </svg>
+          </button>
+        <script src="js/buttonup.js"></script>
+        </div>
+        <footer>
+            <section class="rectangle-footer">
+                <ul class="foot-nav">
+                    <li class="foot-text rotating-element"><a href="https://yhumisunstra.com/mentionslegales.html">Mentions légales</a>
+                    </li>
+                    <li class="foot-text rotating-element"><a href="https://yhumisunstra.com/reseaux.html">Réseaux sociaux</a></li>
+                </ul>
+                <p class="droits">Site créé par Laura Buil, Tous droits réservés 2023</p>
+            </section>
+        </footer>
+    </div>
+</body>
+
+</html>
